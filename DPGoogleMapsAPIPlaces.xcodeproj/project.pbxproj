@@ -16,6 +16,10 @@
 		2E5BC1EC16DDA42300A4E8F3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5BC1EB16DDA42300A4E8F3 /* Default.png */; };
 		2E5BC1EE16DDA42300A4E8F3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5BC1ED16DDA42300A4E8F3 /* Default@2x.png */; };
 		2E5BC1F016DDA42300A4E8F3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5BC1EF16DDA42300A4E8F3 /* Default-568h@2x.png */; };
+		2E5BC1F916DDA48600A4E8F3 /* DPGoogleMapsAPIPlaces.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BC1F816DDA48600A4E8F3 /* DPGoogleMapsAPIPlaces.m */; };
+		2E5BC1FF16DDA7F000A4E8F3 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 2E5BC1FB16DDA7F000A4E8F3 /* CHANGELOG.md */; };
+		2E5BC20016DDA7F000A4E8F3 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BC1FD16DDA7F000A4E8F3 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
+		2E5BC20116DDA7F000A4E8F3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2E5BC1FE16DDA7F000A4E8F3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,12 @@
 		2E5BC1EB16DDA42300A4E8F3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2E5BC1ED16DDA42300A4E8F3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2E5BC1EF16DDA42300A4E8F3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2E5BC1F716DDA48600A4E8F3 /* DPGoogleMapsAPIPlaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPGoogleMapsAPIPlaces.h; sourceTree = "<group>"; };
+		2E5BC1F816DDA48600A4E8F3 /* DPGoogleMapsAPIPlaces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPGoogleMapsAPIPlaces.m; sourceTree = "<group>"; };
+		2E5BC1FB16DDA7F000A4E8F3 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		2E5BC1FC16DDA7F000A4E8F3 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		2E5BC1FD16DDA7F000A4E8F3 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		2E5BC1FE16DDA7F000A4E8F3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +78,7 @@
 		2E5BC1D816DDA42300A4E8F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E5BC1FA16DDA7F000A4E8F3 /* JSONKit */,
 				2E5BC1D916DDA42300A4E8F3 /* UIKit.framework */,
 				2E5BC1DB16DDA42300A4E8F3 /* Foundation.framework */,
 				2E5BC1DD16DDA42300A4E8F3 /* CoreGraphics.framework */,
@@ -80,6 +91,7 @@
 			children = (
 				2E5BC1E816DDA42300A4E8F3 /* AppDelegate.h */,
 				2E5BC1E916DDA42300A4E8F3 /* AppDelegate.m */,
+				2E5BC1F616DDA46F00A4E8F3 /* DPGoogleMapsAPIPlaces */,
 				2E5BC1E016DDA42300A4E8F3 /* Supporting Files */,
 			);
 			path = DPGoogleMapsAPIPlaces;
@@ -97,6 +109,27 @@
 				2E5BC1EF16DDA42300A4E8F3 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E5BC1F616DDA46F00A4E8F3 /* DPGoogleMapsAPIPlaces */ = {
+			isa = PBXGroup;
+			children = (
+				2E5BC1F716DDA48600A4E8F3 /* DPGoogleMapsAPIPlaces.h */,
+				2E5BC1F816DDA48600A4E8F3 /* DPGoogleMapsAPIPlaces.m */,
+			);
+			path = DPGoogleMapsAPIPlaces;
+			sourceTree = "<group>";
+		};
+		2E5BC1FA16DDA7F000A4E8F3 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				2E5BC1FB16DDA7F000A4E8F3 /* CHANGELOG.md */,
+				2E5BC1FC16DDA7F000A4E8F3 /* JSONKit.h */,
+				2E5BC1FD16DDA7F000A4E8F3 /* JSONKit.m */,
+				2E5BC1FE16DDA7F000A4E8F3 /* README.md */,
+			);
+			name = JSONKit;
+			path = Submodules/JSONKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +187,8 @@
 				2E5BC1EC16DDA42300A4E8F3 /* Default.png in Resources */,
 				2E5BC1EE16DDA42300A4E8F3 /* Default@2x.png in Resources */,
 				2E5BC1F016DDA42300A4E8F3 /* Default-568h@2x.png in Resources */,
+				2E5BC1FF16DDA7F000A4E8F3 /* CHANGELOG.md in Resources */,
+				2E5BC20116DDA7F000A4E8F3 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +201,8 @@
 			files = (
 				2E5BC1E616DDA42300A4E8F3 /* main.m in Sources */,
 				2E5BC1EA16DDA42300A4E8F3 /* AppDelegate.m in Sources */,
+				2E5BC1F916DDA48600A4E8F3 /* DPGoogleMapsAPIPlaces.m in Sources */,
+				2E5BC20016DDA7F000A4E8F3 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
