@@ -20,6 +20,8 @@
 		2E5BC1FF16DDA7F000A4E8F3 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 2E5BC1FB16DDA7F000A4E8F3 /* CHANGELOG.md */; };
 		2E5BC20016DDA7F000A4E8F3 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BC1FD16DDA7F000A4E8F3 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
 		2E5BC20116DDA7F000A4E8F3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2E5BC1FE16DDA7F000A4E8F3 /* README.md */; };
+		2E5BC20516DDA8EC00A4E8F3 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BC20316DDA8EC00A4E8F3 /* TestViewController.m */; };
+		2E5BC20616DDA8EC00A4E8F3 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E5BC20416DDA8EC00A4E8F3 /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,9 @@
 		2E5BC1FC16DDA7F000A4E8F3 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		2E5BC1FD16DDA7F000A4E8F3 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		2E5BC1FE16DDA7F000A4E8F3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		2E5BC20216DDA8EC00A4E8F3 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		2E5BC20316DDA8EC00A4E8F3 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		2E5BC20416DDA8EC00A4E8F3 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +96,9 @@
 			children = (
 				2E5BC1E816DDA42300A4E8F3 /* AppDelegate.h */,
 				2E5BC1E916DDA42300A4E8F3 /* AppDelegate.m */,
+				2E5BC20216DDA8EC00A4E8F3 /* TestViewController.h */,
+				2E5BC20316DDA8EC00A4E8F3 /* TestViewController.m */,
+				2E5BC20416DDA8EC00A4E8F3 /* TestViewController.xib */,
 				2E5BC1F616DDA46F00A4E8F3 /* DPGoogleMapsAPIPlaces */,
 				2E5BC1E016DDA42300A4E8F3 /* Supporting Files */,
 			);
@@ -189,6 +197,7 @@
 				2E5BC1F016DDA42300A4E8F3 /* Default-568h@2x.png in Resources */,
 				2E5BC1FF16DDA7F000A4E8F3 /* CHANGELOG.md in Resources */,
 				2E5BC20116DDA7F000A4E8F3 /* README.md in Resources */,
+				2E5BC20616DDA8EC00A4E8F3 /* TestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +212,7 @@
 				2E5BC1EA16DDA42300A4E8F3 /* AppDelegate.m in Sources */,
 				2E5BC1F916DDA48600A4E8F3 /* DPGoogleMapsAPIPlaces.m in Sources */,
 				2E5BC20016DDA7F000A4E8F3 /* JSONKit.m in Sources */,
+				2E5BC20516DDA8EC00A4E8F3 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
